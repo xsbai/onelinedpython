@@ -9,4 +9,4 @@ def print_multiplication_formula():
         for j in range(1,i+1):
             formula = "%2s x%2s = %2s " % (j,i,i*j)
             print(formula,end='')
-        print('\n')
+        print()
